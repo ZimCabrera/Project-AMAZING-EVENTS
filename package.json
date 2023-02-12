@@ -1,0 +1,23 @@
+{
+  "name": "project-amazing-events",
+  "version": "1.0.0",
+  "description": "Proyecto EVENTOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZimCabrera/Project-AMAZING-EVENTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZimCabrera/Project-AMAZING-EVENTS/issues"
+  },
+  "homepage": "https://github.com/ZimCabrera/Project-AMAZING-EVENTS#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
