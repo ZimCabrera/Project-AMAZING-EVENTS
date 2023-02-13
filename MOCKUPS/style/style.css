@@ -64,7 +64,6 @@ main {
   width: 100%;
   height: auto;
   display: flex;
-  background: #C92C6D;
 }
 
 .section-home {
@@ -76,6 +75,7 @@ main {
 .carousel{
   width: 100%;
   height: 100px;
+  background-color: #C92C6D;
 }
 
 
