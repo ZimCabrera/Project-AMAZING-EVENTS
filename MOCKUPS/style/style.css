@@ -17,11 +17,13 @@ a {
 }
 
 body {
-background-color:#609EA2;
+background-color:#F0EEED;
 }
 
 .navbar {
-  background-color:antiquewhite;
+  background-image: url(../image/nav2.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 80px;
   padding: 0 50px
@@ -33,20 +35,31 @@ background-color:#609EA2;
   padding: 0 10px;
 }
 
-
 .nav-link {
-  color:rgb(181, 20, 114);
+  color:#C92C6D !important;
   font-weight: 700;
   font-size: 15px;
-  border: 2px solid rgb(14, 14, 111);
   border-radius: 10px;
-  transition: 0.3s ease;
+  transition: 0.2s;
 }
 
-.nav-link:hover {
-  background-image:linear-gradient(180deg, #fe90c3 0, #ed80bd 25%, #d86cb4 50%, #c259ac 75%, #ae4ba7 100%);
-  
-  /*radial-gradient(circle at 84.27% 53%, #617eff 0, #8f74ff 10%, #b068ff 20%, #ca5cff 30%, #e04dff 40%, #f23cf2 50%, #ff26e1 60%, #ff00d0 70%, #ff00be 80%, #ff00ab 90%, #ff0099 100%);*/
-  color: white;
+.nav-item a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 3px;
+  width: 50px;
+  transition: all ease 0.4s;
 }
+
+.nav-item a:hover:after {
+  width: 70px;
+  background-image: radial-gradient(circle at 9.92% 42.93%, #ff7ec2 0, #f475bd 25%, #d86cb4 50%, #bd63aa 75%, #a45ba0 100%);
+
+}
+
+
+
+
+
 
