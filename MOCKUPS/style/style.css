@@ -63,6 +63,11 @@ body {
 main {
   width: 100%;
   height: auto;
+<<<<<<< Updated upstream
+=======
+  display: flex;
+  background: #C92C6D;
+>>>>>>> Stashed changes
 }
 
 .section-home {
