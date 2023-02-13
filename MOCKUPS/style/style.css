@@ -1,1 +1,52 @@
 @import "/Project-AMAZING-EVENTS/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+
+/*root:*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+background-color:#609EA2;
+}
+
+.navbar {
+  background-color:antiquewhite;
+  width: 100%;
+  height: 80px;
+  padding: 0 50px
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items:center;
+  padding: 0 10px;
+}
+
+
+.nav-link {
+  color:rgb(181, 20, 114);
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid rgb(14, 14, 111);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  background-image:linear-gradient(180deg, #fe90c3 0, #ed80bd 25%, #d86cb4 50%, #c259ac 75%, #ae4ba7 100%);
+  
+  /*radial-gradient(circle at 84.27% 53%, #617eff 0, #8f74ff 10%, #b068ff 20%, #ca5cff 30%, #e04dff 40%, #f23cf2 50%, #ff26e1 60%, #ff00d0 70%, #ff00be 80%, #ff00ab 90%, #ff0099 100%);*/
+  color: white;
+}
+
