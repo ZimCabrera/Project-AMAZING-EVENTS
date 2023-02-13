@@ -58,8 +58,19 @@ background-color:#F0EEED;
 
 }
 
-.navbar-toggler {
-  
+/*MAIN*/
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.section-home {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #609EA2; 
 }
 
 
