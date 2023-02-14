@@ -103,13 +103,18 @@ main {
   padding: 30px 50px;
 }
 
-#cards {
-  padding: 20px 50px;
+.card-body {
+  text-align: center;
 }
 
-.card-body {
-  display:grid;
+
+#cards {
+  padding: 20px 50px;
+  width: 100%;
+  margin: 0 auto;
 }
+
+
 
 /* MOBILE */
 
