@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-nav {
-  margin: 0 50px;
+  margin: 20px 50px;
 }
 
 .nav-item a {
@@ -80,27 +80,48 @@ main {
   color:#C92C6D;
   font-size: 50px;
   
+  
 }
 
 .text-slide {
   color:white;
   font-weight: 700;
+  
 }
 
-.section-events {
+.section-form {
   background-color:#609EA2;
   width: 90%;
-  height: 500px;
-  margin: 0 auto;
+  height: auto;
+  margin: 0px auto;
 }
 
-.container-fluid {
+.input-form {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   align-items:center;
-  padding: 20px;
+  padding: 30px 50px;
 }
 
+#cards {
+  padding: 20px 50px;
+}
+
+.card-body {
+  display:grid;
+}
+
+/* MOBILE */
+
+@media(max-width:820px){
+  .input-form {
+    display:flow-root;
+  }
+
+  #cards {
+    padding: 20px 10px;
+  }
+}
 
 
 
