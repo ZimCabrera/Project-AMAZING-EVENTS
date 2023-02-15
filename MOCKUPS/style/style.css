@@ -209,12 +209,17 @@ fieldset {
 
 .redes {
   margin-left: 50px;
+  
 }
 
 .img-footer {
+  background-color: white;
   width: 50px;
   height: 50px;
   padding:8px;
+  margin-left: 10px;
+  border: 2px solid transparent;
+  border-radius: 50%;
   transition:.3s ease-in-out;
 }
 
@@ -276,21 +281,16 @@ fieldset {
     display:block;
     text-align: center;
     height: 180px;
+    padding: 50px;
   }
 
   .redes {
-    margin: 0;
-  }
-
-  .img-footer {
-    width: 45px;
-    height: 45px;
+    margin: 0px;
   }
 
   .text-footer {
     font-weight: 700;
-    font-size: 15px;
-    margin:15px 0px ;
+    margin:20px 0px ;
   }
 
 }
