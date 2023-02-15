@@ -163,6 +163,41 @@ fieldset {
   margin: 0 120px;
 }
 
+.details {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  border: 5px groove transparent;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, .5);
+}
+
+.img-details {
+  background: url(../image/concert.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin: 50px 10px 50px 50px ;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
+}
+
+.text-details {
+  width: 50%;
+  height: 300px;
+  margin: 50px 50px 50px 10px ;
+  background: #31282fb7;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 40px;
+  color:white;
+}
+
 .footer-section {
   background-color:#332C39;
   width: 100%;
@@ -251,7 +286,7 @@ fieldset {
 
 }
 
-@media(max-width:900px) {
+@media(max-width:916px) {
 
   #cards {
     width: 90%;
@@ -274,6 +309,23 @@ fieldset {
   width: 250px;
   margin: 30px 20px;
  }
+
+ .details {
+  display: block;
+  margin: 10px auto;
+ }
+
+ .img-details {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.text-details {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  padding: 20px;
+}
 
 }
 
