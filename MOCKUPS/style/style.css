@@ -90,12 +90,14 @@ main {
 }
 
 .section-form {
-  background-color:#609EA2;
+  background-image: radial-gradient(circle at 50% 120.71%, #ff6775 0, #ff5978 16.67%, #ff4a7a 33.33%, #f23c78 50%, #d82f75 66.67%, #c02672 83.33%, #ab1f6f 100%);
   width: 90%;
   height: auto;
   margin: 0px auto;
   padding: 50px;
 }
+
+
 
 .input-form {
   display: flex;
@@ -115,14 +117,14 @@ main {
 }
 
 .formulario {
-  background: #C92C6D;
+  background-image: url(../image/pink-form.jpg);
+  background-repeat: no-repeat;
   width: 60%;
-  height: 500px;
+  height: 600px;
   margin: 0px auto;
-  display:grid;
-  justify-content: center;
-  align-items:center;
-  border: 5px solid white;
+  padding: 20px 0px;
+  display:block;
+  border-radius: 20px;
 }
 
 .label-form {
@@ -130,7 +132,26 @@ main {
   font-weight: 700;
 }
 
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+
+#floatingTextarea2Disabled,
+#floatingInputDisabled,
+#floatingPassword,
+.form-name {
+  width: 400px;
+  margin: 40px 20px;
+}
+
+.boton-form {
+  display:flex;
+  justify-content: end;
+  margin: 0 120px;
+}
 
 .footer-section {
   background-color:#332C39;
@@ -161,7 +182,14 @@ main {
   font-weight: 700;
   margin-right: 50px;
 }
-
+.enviar {
+  background:black;
+  color:#609EA2;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
 
 /* MOBILE */
 
@@ -188,7 +216,6 @@ main {
 
   .formulario {
     width: 70%;
-    border: 3px solid white;
   }
 
   .footer-section {
@@ -223,6 +250,14 @@ main {
     width: 200px;
     height: 30px;
   }
+
+#floatingTextarea2Disabled,
+#floatingInputDisabled,
+#floatingPassword,
+.form-name {
+  width: 250px;
+  margin: 30px 20px;
+ }
 
 }
 
