@@ -208,7 +208,7 @@ fieldset {
 }
 
 .redes {
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .img-footer {
@@ -234,6 +234,15 @@ fieldset {
   width: 200px;
   height: 40px;
   border-radius: 10px;
+}
+
+
+.title-table {
+  font-size: 18px;
+}
+
+.subt-table {
+  font-size: 15px;
 }
 
 /* MOBILE */
@@ -325,7 +334,15 @@ fieldset {
   height: auto;
   margin: 20px 0px;
   padding: 20px;
-}
+ }
+
+ .title-table {
+  font-size: 15px;
+ }
+
+.subt-table {
+  font-size: 12px;
+ }
 
 }
 
