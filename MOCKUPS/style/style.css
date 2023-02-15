@@ -130,15 +130,7 @@ main {
   font-weight: 700;
 }
 
-input {
-  width: 400px;
-  height: 30px;
-}
 
-.message {
-  width: 400px;
-  height: 150px;
-}
 
 .footer-section {
   background-color:#332C39;
