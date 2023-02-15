@@ -63,7 +63,7 @@ body {
 main {
   width: 100%;
   height: auto;
-  background-color: #F0EEED;
+  background: #D8D9CF;
 }
 
 .section-slide {
@@ -116,6 +116,15 @@ main {
   margin: 0 auto;
 }
 
+.card {
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
+  transition: .3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
 .formulario {
   background-image: url(../image/pink-form.jpg);
   background-repeat: no-repeat;
@@ -125,6 +134,7 @@ main {
   padding: 20px 0px;
   display:block;
   border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
 }
 
 .label-form {
@@ -241,7 +251,13 @@ fieldset {
 
 }
 
-@media(max-width:846px) {
+@media(max-width:900px) {
+
+  #cards {
+    width: 90%;
+    margin: 30px auto;
+  }
+
   .formulario {
     width: 90%;
   }
