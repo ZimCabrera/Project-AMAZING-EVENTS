@@ -20,7 +20,7 @@ body {
 /*NAV*/
 
 .navbar {
-  background-image: url(../img/nav2.jpg);
+  background-image: url(../imagenes/nav2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -95,7 +95,7 @@ main {
   padding: 50px 50px 80px 50px;
 }
 
-#proyectos .portfolio-filter {
+.portfolio-filter {
   padding: 0 15px;
   flex: 0 0 100%;
   max-width: 100%;
@@ -103,7 +103,7 @@ main {
   margin-bottom: 40px;
 }
 
-#proyectos .filter-item {
+.filter-item {
   display: inline-block;
   margin: 50px 5px 10px;
   padding: 5px 10px;
@@ -119,12 +119,13 @@ main {
   transition:all 0.3s ease;
 }
 
-#proyectos .filter-item:hover:not(active) {
+.filter-item:hover:not(active) {
   opacity: 0.4;
 }
 
-#proyectos .filter-item.active {
+.filter-item.active {
   color: lightcoral;
+}
 
 .input-form {
   display: flex;
@@ -155,7 +156,7 @@ main {
 
 
 .formulario {
-  background-image: url(../image/pink-form.jpg);
+  background-image: url(../imagenes/pink-form.jpg);
   background-repeat: no-repeat;
   width: 60%;
   height: 600px;
@@ -205,7 +206,7 @@ fieldset {
 }
 
 .img-details {
-  background: url(../img/Music_Concert.jpg);
+  background: url(../imagenes/Music_Concert.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

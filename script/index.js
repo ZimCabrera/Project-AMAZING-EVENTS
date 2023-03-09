@@ -3,8 +3,8 @@ const card = document.getElementById("card-template");
 
 data.events.map((event) =>{
   card.innerHTML += `
-    <div class="col" data-category="${event.category}">
-      <div class="card h-100">
+    <div class="col">
+      <div class="card h-100" data-category="${event.category}">
         <img src="${event.image}" class="card-img" alt="${event.name}">
         <div class="card-body">
           <h5 class="card-title">${event.name}</h5>
