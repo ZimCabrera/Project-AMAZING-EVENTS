@@ -95,7 +95,36 @@ main {
   padding: 50px 50px 80px 50px;
 }
 
+#proyectos .portfolio-filter {
+  padding: 0 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+#proyectos .filter-item {
+  display: inline-block;
+  margin: 50px 5px 10px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: 1px solid lightcoral;
+  background: rgb(24, 23, 23);
+  box-shadow: 2px 2px rgb(0, 0, 0, .5);
+  cursor:pointer;
+  font-weight: 400;
+  color:antiquewhite;
+  text-transform: capitalize;
+  font-size: 15px;
+  transition:all 0.3s ease;
+}
+
+#proyectos .filter-item:hover:not(active) {
+  opacity: 0.4;
+}
+
+#proyectos .filter-item.active {
+  color: lightcoral;
 
 .input-form {
   display: flex;
