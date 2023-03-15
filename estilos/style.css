@@ -95,43 +95,22 @@ main {
   padding: 50px 50px 80px 50px;
 }
 
-.portfolio-filter {
-  padding: 0 15px;
-  flex: 0 0 100%;
-  max-width: 100%;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.filter-item {
-  display: inline-block;
-  margin: 50px 5px 10px;
-  padding: 5px 10px;
-  border-radius: 30px;
-  border: 1px solid lightcoral;
-  background: rgb(24, 23, 23);
-  box-shadow: 2px 2px rgb(0, 0, 0, .5);
-  cursor:pointer;
-  font-weight: 400;
-  color:antiquewhite;
-  text-transform: capitalize;
-  font-size: 15px;
-  transition:all 0.3s ease;
-}
-
-.filter-item:hover:not(active) {
-  opacity: 0.4;
-}
-
-.filter-item.active {
-  color: lightcoral;
-}
-
 .input-form {
-  display: flex;
+  display: block;
   justify-content:center;
   align-items:center;
-  padding: 30px 50px;
+}
+
+.form-check-label {
+  color:white;
+}
+
+.form-check{
+  margin-top: 20px;
+}
+ 
+.boton-show {
+  margin-top: 5px;
 }
 
 .card-body {
