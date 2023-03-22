@@ -61,7 +61,7 @@ body {
 main {
   width: 100%;
   height: auto;
-  background: #D8D9CF;
+  background:white;
 }
 
 .section-slide {
@@ -188,7 +188,7 @@ fieldset {
 }
 
 #details {
-  width: 100%;
+  width: 80%;
   height: 400px;
   margin: 50px auto;
   display: flex;
@@ -201,16 +201,17 @@ fieldset {
 
 .img-details {
   width: 50%;
-  height: 400px;
-  margin: 50px 10px 50px 50px ;
+  height: 300px;
+  margin: 0 auto ;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0, .5);
+  text-align: center;
+  
 }
 
 .text-details {
   width: 50%;
-  height: 400px;
-  margin: 50px 50px 50px 10px ;
+  height: 300px;
+  margin: 0 auto;
   background: #31282fb7;
   border-radius: 10px;
   text-align: justify;
