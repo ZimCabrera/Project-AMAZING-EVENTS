@@ -15,33 +15,34 @@
 
   const card = dataEvents.find((event) => event._id == id);
   
-  function assistenceEvent(){
+  function assistanceEvent(){
       if (currentDate > setDate(card.date)){
           return `<b>Assistence:</b> ${card.assistance}`;
       }else{
           return `<b>Estimate Assistence:</b> ${card.estimate}`;
      }
   }
-  const assistence = assistenceEvent()
+   const assistan = assistanceEvent()
 
-  let templateCard = `
-       <div class="img-details">
-         <img src="${evento.image}" alt="${evento.name}">
-       </div>
-       <div class="text-details">
-         <h2 class="text-center">${evento.name}</h2>
-         <p>Fecha: ${evento.date}</p>
-         <p>${evento.description}</p>
-         <p>Category: ${evento.category}</p>
-         <p>Place: ${evento.place}</p>
-         <p>Capacity: ${evento.capacity}</p>
-         <p>Assistance: ${evento.assistance}</p>
-         <p>Price: ${evento.price}</p>
-       </div>`;
+  let cardDetails = `
+        <div class="img-details">
+          <img src="${card.image}" alt="${card.name}">
+        </div>
+        <div class="text-details">
+         <h2 class="text-center">${card.name}</h2>
+         <p>Fecha: ${card.date}</p>
+         <p>${card.description}</p>
+         <p>Category: ${card.category}</p>
+         <p>Place: ${card.place}</p>
+         <p>Capacity: ${card.capacity}</p>
+         <p>Assistance: ${assistan}</p>
+         <p>Price:$${card.price}</p>
+        </div>
+      </div>
+    </div>
+  </div>`;
     
-      cardContainer.innerHTML = templateCard;
-      
-      const btnback = document.getElementById('btn-back');
-      btnback.addEventListener('click', () => history.back())
+  cardContainer.innerHTML = cardDetails;
       
 })(data.events)
+
