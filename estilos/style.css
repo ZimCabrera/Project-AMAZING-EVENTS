@@ -185,10 +185,6 @@ fieldset {
 }
 
 .img-details {
-  background: url(../imagenes/Music_Concert.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 50%;
   height: 300px;
   margin: 50px 10px 50px 50px ;
