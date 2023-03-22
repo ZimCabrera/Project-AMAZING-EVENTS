@@ -1,17 +1,30 @@
-let params = new URLSearchParams(document.location.search)
-let id = params.get("id")
-console.log(id);
+(function(dataEvents) {
 
+  const cardContainer = document.getElementById("details");
+  const currentDate = setDate(data.currentDate);
 
+  function setDate(date) {
+      const reg = /[-]/g;
+      const dateOk = new Date(date.replace(reg, ','));
+      return dateOk.getTime();
+  }
 
-const evento = data.events.filter(evento => evento._id == id);
-console.log(evento);
+  const queryString = location.search;
+  const params = new URLSearchParams(queryString);
+  const id = params.get("id");
 
+  const card = dataEvents.find((event) => event._id == id);
+  
+  function assistenceEvent(){
+      if (currentDate > setDate(card.date)){
+          return `<b>Assistence:</b> ${card.assistance}`;
+      }else{
+          return `<b>Estimate Assistence:</b> ${card.estimate}`;
+     }
+  }
+  const assistence = assistenceEvent()
 
-const container = document.getElementById("details");
-let cards = '';
-  console.log(evento[0].name);  
-      cards += `
+  let templateCard = `
        <div class="img-details">
          <img src="${evento[0].image}" alt="${evento[0].name}">
        </div>
@@ -26,4 +39,9 @@ let cards = '';
          <p>Price: ${evento[0].price}</p>
        </div>`;
     
-        container.innerHTML = cards
+      cardContainer.innerHTML = templateCard;
+      
+      const btnback = document.getElementById('btn-back');
+      btnback.addEventListener('click', () => history.back())
+      
+})(data.events)
