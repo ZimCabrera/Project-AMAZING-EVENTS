@@ -47,7 +47,7 @@ function createCards(arrayUpcomingEvents) {
 }
 
 
-/*Checkbox Filters*/
+
 
 const categories = getCategories(data.events);
 function getCategories(events) {
@@ -72,7 +72,7 @@ function createCheckboxFilter(arrayCategories) {
     printHTML(formCheckContainer, fragment);
 }
 
-/*filtros por categoria*/
+
 
 const checkboxes = document.querySelectorAll(".form-check-input");
 let checkedCategories = [];
@@ -110,7 +110,7 @@ function filter(value, checkedCards){
     }
 }
 
-/*Search Filter*/
+
 
 const formSearch = document.forms[0];
 const inputSearch = document.querySelector(".input-search");
