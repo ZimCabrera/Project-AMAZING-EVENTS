@@ -184,7 +184,7 @@ fieldset {
   font-weight: 500;
   padding: 8px;
   border-radius: 30px;
-  border: 2px solid dimgray;
+  border: 2px solid rgb(55, 54, 54);
 }
 
 .details {
