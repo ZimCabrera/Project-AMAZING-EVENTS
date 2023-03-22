@@ -80,7 +80,27 @@
      <!--CARDS-->
 
       <div class="row row-cols-1 row-cols-md-4 g-4" id="card-template">
-        
+        <template id="template-preload">
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-img-top holder">
+                      <div class="into-preload"></div>
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title holder">
+                          <div class="into-preload"></div>
+                      </h5>
+                      <div class="card-text holder">
+                          <div class="into-preload"></div>
+                      </div>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="card-price holder"></div>
+                      <a class="card-info holder"></a>
+                  </div>
+              </div>
+          </div>
+        </template>
             <!--        card generadas con js          -->  
       </div>
 
@@ -97,7 +117,6 @@
 
   <!--LINK JS BOOTSTRAP-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  <script src="./js/data.js"></script>
   <script src="./js/upcoming.js"></script>
 </body>
 </html>
