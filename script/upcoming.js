@@ -34,7 +34,7 @@ function createCards(arrayUpcomingEvents) {
                     </div>
                     <div class="card-footer d-flex justify-content-between">
                         <div class="card-price">$${event.price}</div>
-                        <a class="card-moreInfo" href="./details.html?id=${event._id}">More Info</a>
+                        <a class="card-info" href="./details.html?id=${event._id}">More Info</a>
                     </div>
                 </div>
                 </div>`;
