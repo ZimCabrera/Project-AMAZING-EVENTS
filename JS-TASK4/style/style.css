@@ -20,7 +20,7 @@ body {
 /*NAV*/
 
 .navbar {
-  background-image: url(../imagenes/nav2.jpg);
+  background-image: url(../image/nav2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -135,7 +135,7 @@ main {
 
 
 .formulario {
-  background-image: url(../imagenes/pink-form.jpg);
+  background-image: url(../image/pink-form.jpg);
   background-repeat: no-repeat;
   width: 60%;
   height: 600px;
@@ -261,13 +261,23 @@ fieldset {
   border-radius: 10px;
 }
 
-
-.title-table {
-  font-size: 18px;
+.table {
+  background-image: url(../image/stat.jpg);
 }
 
-.subt-table {
-  font-size: 15px;
+
+th {
+  color:white;
+}
+
+.table-caption {
+  color: black;
+  font-weight: 700;
+}
+
+td {
+  color:white;
+  text-align: center;
 }
 
 /* MOBILE */
